@@ -33,3 +33,9 @@ Aqxc6pk7MXajSeijMyh1dPCI87unhFu+F2Uzy84IDAxBu3RwkojjEYRrRPTaFl7q
 =TArA
 -----END PGP PUBLIC KEY BLOCK----- 
 ```
+
+## Import my key
+
+```bash
+$ curl https://raw.githubusercontent.com/ryotaro/gpg/master/ryotaro.ikeda.gpg 2>/dev/null | gpg --import
+```
